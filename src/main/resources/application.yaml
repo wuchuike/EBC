@@ -1,0 +1,25 @@
+server:
+  port: 8080 #指定端口
+  servlet:
+    context-path: /EBC #指定项目名
+    jsp:
+      init-parameters:
+        development: true #jsp页面代码修改自动更新，不需重启
+spring:
+  mvc:
+    view: #视图解析配置
+      prefix: /WEB-INF/pages/
+      suffix: .jsp
+
+# 配置MyBatis日志
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath*:/mapper/*.xml
+  type-aliases-package: com.ebc.boot.entity
+
+#日志配置
+logging:
+  level:
+    root: info
+    com.ebc.boot: debug

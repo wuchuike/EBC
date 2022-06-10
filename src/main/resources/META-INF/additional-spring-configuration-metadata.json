@@ -1,0 +1,23 @@
+{
+  "properties": [
+    {
+      "name": "spring.datasource.c3p0.driverClass",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.c3p0.driverClass."
+    },
+    {
+      "name": "spring.datasource.c3p0.jdbcUrl",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.c3p0.jdbcUrl."
+    },
+    {
+      "name": "spring.datasource.c3p0.password",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.c3p0.password."
+    },
+    {
+      "name": "spring.datasource.c3p0.user",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.c3p0.user."
+    }
+  ] }

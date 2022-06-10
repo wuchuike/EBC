@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ebc.boot.mapper.EbcUserMapper">
+
+    <select id="selectByUsername" resultType="EbcUser">
+        select username,password,nickname,email,phone,r_date,sp,spa,R,I,E,IMG_V,W
+        from user
+        where user.username=#{username}
+    </select>
+
+    <select id="getAllUsers" resultType="string">
+        select username from user
+    </select>
+
+    <select id="getAllUser" resultType="ebcUser">
+        select username,username, nickname, email, phone, r_date from user
+    </select>
+</mapper>
