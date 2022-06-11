@@ -33,3 +33,5 @@
   ⑳	在线留言表（feedback）。  
   21	项目批次信息（地点时间划分表）（project_inf）。  
 
+四、项目目录结构：![EBC整体项目目录](https://user-images.githubusercontent.com/45121228/173176752-a6cb7437-3bd5-411a-a8fc-0e6be7d96023.PNG)
+
