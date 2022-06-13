@@ -11,6 +11,7 @@
   maven：apache-maven-3.5.4；  
   bootstrap：3.4.1；  
   mysql：8.0.25；  
+  运行测试：apache-tomcat-8.5.75;  
   更多版本信息请移步pom.xml。  
   
 三、数据库表设计：  
